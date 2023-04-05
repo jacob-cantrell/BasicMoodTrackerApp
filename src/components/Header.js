@@ -6,12 +6,11 @@ const Header = () => {
         <div>
             <h1 className="display-3" style=
                 {{
-                    textAlign: "left",
-                    backgroundImage: `url(https://www.nwosu.edu/uploads/627-18974.png)`,
-                    backgroundSize: "1750px 200px cover",
+                    textAlign: "center",
+                    backgroundImage: `url(https://www.hypno4success.com/wp-content/uploads/2017/06/Advanced-Clinical-Hypnotherapy-header.jpg?v=11)`,
+                    backgroundSize: "1600px 200px",
                     marginTop: 0,
                     marginBottom: 0,
-                    paddingLeft: "20%",
                     paddingBottom: 25,
                     paddingTop: 25
                 }}>

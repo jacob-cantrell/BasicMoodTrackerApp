@@ -22,7 +22,7 @@ const AddJournals = () => {
                     <br></br>
                     <div class="form-group">
                         <label for="inputPin">PIN</label>
-                        <input type="password" name="pin" class="form-control" id="inputPin" placeholder="PIN" required />
+                        <input type="password" name="pin" class="form-control" id="inputPin" placeholder="xxxx" required />
                     </div>
                     <br></br>
                     <div>
@@ -31,7 +31,7 @@ const AddJournals = () => {
                     </div>
                     <br></br>
                     <div>
-                        <label>Write your post:
+                        <label>Write your journal:
                             <textarea name="inputJournal" rows={4} cols={90} />
                         </label>
                     </div>
