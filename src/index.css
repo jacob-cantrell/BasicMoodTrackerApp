@@ -8,8 +8,13 @@
   align-self: center;
 }
 
+.navbar{
+  margin-bottom: 0 !important;
+  border: 0 !important;
+}
+
 .App {
-  background-color: white;
+  background-image: "https://d1lzrgdbvkolkd.cloudfront.net/1512_B_752043a468.jpg";
 }
   
 .Auth-form-container {
@@ -49,6 +54,7 @@ label {
 }
 
 .styled-table {
+  border-collapse: collapse;
   margin-left: 10%;
   width: 80%;
   font-size: 0.9em;

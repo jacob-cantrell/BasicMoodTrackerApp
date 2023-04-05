@@ -4,9 +4,17 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         <div>
-            <h1 className="display-3" style={{
-                textAlign: "center",
-            }}>
+            <h1 className="display-3" style=
+                {{
+                    textAlign: "left",
+                    backgroundImage: `url(https://www.nwosu.edu/uploads/627-18974.png)`,
+                    backgroundSize: "1750px 200px cover",
+                    marginTop: 0,
+                    marginBottom: 0,
+                    paddingLeft: "20%",
+                    paddingBottom: 25,
+                    paddingTop: 25
+                }}>
                     Mood Tracker Website
             </h1>
 
