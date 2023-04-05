@@ -5,6 +5,7 @@ import ViewJournals from './components/ViewJournals';
 import AddJournal from './components/AddJournal';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
+import MoodTracker from './components/MoodTracker';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/add-journal" element={<AddJournal/>} />
         <Route path="/" element={<LoginPage/>} />
         <Route path="/register" element={<RegisterPage/>} />
+        <Route path="/mood-tracker" element={<MoodTracker/>} />
       </Routes>
     </div>
   );
