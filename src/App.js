@@ -6,17 +6,21 @@ import AddJournal from './components/AddJournal';
 import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
 import MoodTracker from './components/MoodTracker';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/home" element={<Home/>} exact />
-        <Route path="/view-journal" element={<ViewJournals/>} />
-        <Route path="/add-journal" element={<AddJournal/>} />
-        <Route path="/" element={<LoginPage/>} />
-        <Route path="/register" element={<RegisterPage/>} />
-        <Route path="/mood-tracker" element={<MoodTracker/>} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/view-journal" element={<ViewJournals />} />
+        <Route path="/add-journal" element={<AddJournal />} />
+        <Route path="/" element={<LoginPage />} exact />
+        <Route path="/register" element={<RegisterPage />} />
+        <Route path="/mood-tracker" element={<MoodTracker />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </div>
   );
