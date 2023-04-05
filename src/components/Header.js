@@ -8,7 +8,7 @@ const Header = () => {
                 {{
                     textAlign: "center",
                     backgroundImage: `url(https://www.hypno4success.com/wp-content/uploads/2017/06/Advanced-Clinical-Hypnotherapy-header.jpg?v=11)`,
-                    backgroundSize: "1600px 200px",
+                    backgroundSize: "100% 200px",
                     marginTop: 0,
                     marginBottom: 0,
                     paddingBottom: 25,
