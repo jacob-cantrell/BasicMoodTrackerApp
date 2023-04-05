@@ -11,6 +11,13 @@ const ViewJournals = () => {
                         View Journals Page
                 </h2>
             </div>
+            <div name="testJournal1">
+
+            </div>
+            <br></br><br></br>
+            <div name="testJournal2">
+                
+            </div>
         </div>
     );
 };

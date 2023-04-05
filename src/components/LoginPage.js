@@ -1,36 +1,46 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { MDBContainer, MDBCol, MDBRow, MDBInput, MDBCheckbox } from 'mdb-react-ui-kit';
 
 const LoginPage = () => {
     return (
-<MDBContainer fluid className="p-3 my-5 h-custom">
-
-<MDBRow>
-
-  <MDBCol col='10' md='6'>
-    <img src="https://images.squarespace-cdn.com/content/v1/60818be3726c6c6c3f24a841/1622140128102-KWTH9R30PZ4DOZ9UN9KB/Mental+Health.png?format=1000w" class="img-fluid" alt="Sample" />
-  </MDBCol>
-
-  <MDBCol col='4' md='6'>
-
-    <MDBInput wrapperClass='mb-4' label='Email address' id='formControlLgEm' type='email' size="lg"/>
-    <MDBInput wrapperClass='mb-4' label='Password' id='formControlLgPw' type='password' size="lg"/>
-
-    <div className="d-flex justify-content-between mb-4">
-      <MDBCheckbox name='flexCheck' value='' id='flexCheckDefault' label='Remember me' />
-      <a href="!#">Forgot password?</a>
+    <div className="Auth-form-container" 
+        style={{
+            backgroundImage:`url(https://www.f5.com/content/dam/f5-com/page-assets-en/home-en/company/diversity-inclusion/zoom-background-mental-health-awareness-1.png)`
+        }}
+    >
+      <form className="Auth-form" 
+        style={{
+            backgroundImage:`url(https://media.istockphoto.com/id/1156178759/vector/human-head-and-brain-creation-and-idea-concept.jpg?s=612x612&w=0&k=20&c=dDRkcnBadVH6oNVvULTIeqE-nEtwN2ADHZNI4LJ3hKQ=)`
+        }}
+      >
+        <div className="Auth-form-content">
+          <h3 className="Auth-form-title">Sign In</h3>
+          <div className="form-group mt-3">
+            <label>Email address</label>
+            <input
+              type="email"
+              className="form-control mt-1"
+              placeholder="example@wisc.edu"
+            />
+          </div>
+          <div className="form-group mt-3">
+            <label>Password</label>
+            <input
+              type="password"
+              className="form-control mt-1"
+              placeholder="Enter password"
+            />
+          </div>
+          <div className="d-grid gap-2 mt-3">
+            <button type="submit" className="btn btn-primary">
+              Submit
+            </button>
+          </div>
+          <p className="forgot-password text-right mt-2">
+            <a href="/register">Forgot password?</a>
+          </p>
+        </div>
+      </form>
     </div>
-
-    <div className='text-center text-md-start mt-4 pt-2'>
-      <Link className="" to="/home">Login</Link>
-      <p className="small fw-bold mt-2 pt-1 mb-2">Don't have an account? <a href="/register" className="link-danger">Register</a></p>
-    </div>
-
-  </MDBCol>
-
-</MDBRow>
-</MDBContainer>
     );
 };
 
