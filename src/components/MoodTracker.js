@@ -12,12 +12,23 @@ const MoodTracker = () => {
                 </h2>
             </div>
             <div>
-                <table style=
-                    {{
-                        marginLeft: "10%",
-                        marginRight: "10%"
-                    }}>
-
+                <table className="styled-table center">
+                    <thead>
+                        <tr>
+                            <th>Monday</th>
+                            <th>Tuesday</th>
+                            <th>Wednesday</th>
+                            <th>Thursday</th>
+                            <th>Friday</th>
+                            <th>Saturday</th>
+                            <th>Sunday</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"/><label style={{paddingLeft:"20px"}}>Sad</label></td>
+                        </tr>
+                        </tbody>
                 </table>
             </div>
         </div>

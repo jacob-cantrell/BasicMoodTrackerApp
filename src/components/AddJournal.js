@@ -19,14 +19,17 @@ const AddJournals = () => {
                         <label for="inputDate">Date</label>
                         <input type="date" name="date" class="form-control" id="inputDate" placeholder="Enter Date" required />
                     </div>
+                    <br></br>
                     <div class="form-group">
                         <label for="inputPin">PIN</label>
                         <input type="password" name="pin" class="form-control" id="inputPin" placeholder="PIN" required />
                     </div>
+                    <br></br>
                     <div>
                         <label for="inputSupervisor">Supervisor</label>
                         <input type="text" name="supervisor" class="form-control" id="inputSupervisor" placeholder="Keiko Engel" required/>
                     </div>
+                    <br></br>
                     <div>
                         <label>Write your post:
                             <textarea name="inputJournal" rows={4} cols={90} />
