@@ -11,7 +11,7 @@ const About = () => {
                         About Page
                 </h2>
             </div>
-            <div>
+            <div style={{textAlign: "center"}}>
                 <label>About this website:</label>
                 <br></br>
                 <p>Sample text.</p>
