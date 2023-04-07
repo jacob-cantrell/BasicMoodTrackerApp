@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const LoginPage = () => {
     return (
@@ -31,9 +32,11 @@ const LoginPage = () => {
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <button type="submit" className="btn btn-primary">
-              Login
-            </button>
+            <Link to="/home">
+              <button type="submit" className="btn btn-primary">
+                Login
+              </button>
+            </Link>
           </div>
           <p className="forgot-password text-right mt-2">
             <a href="/register">Forgot password?</a>
