@@ -2,6 +2,14 @@ import React from 'react';
 import Header from './Header';
 
 const ViewJournals = () => {
+let journal1PIN;
+
+function checkPIN() {
+    if (journal1PIN === '1234') {
+
+    }
+}
+
     return (
         <div>
             <Header/>
@@ -15,6 +23,8 @@ const ViewJournals = () => {
                 <div name="testJournal1" class="row">
                     <div className="col-md-6 center">
                         <label for="journal1">April 5, 2023</label>
+                        <br></br>
+                        <input type="text" value={journal1PIN} onChange='checkPIN()' placeholder="PIN (xxxx)"/>
                         <br></br>
                         <p id="journal1">
                             This is a test journal.
