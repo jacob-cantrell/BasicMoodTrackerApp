@@ -5,11 +5,7 @@ import { Link } from 'react-router-dom';
 const AddJournals = () => {
     const [inPin, setPin] = useState("")
     const [inDate, setDate] = useState(new Date())
-
-    function saveJournal() {
-        console.log("Input PIN: " + inPin)
-        console.log("Input Date: " + inDate)
-    }
+    const [textData, setTextData] = useState("")
 
     return (
         <div>
@@ -40,12 +36,12 @@ const AddJournals = () => {
                     <br></br>
                     <div>
                         <label>Write your journal:
-                            <textarea name="inputJournal" rows={7} cols={100} />
+                            <textarea name="inputJournal" rows={7} cols={100} value={textData} onChange={(e)=>setTextData(e.target.value)}/>
                         </label>
                     </div>
                     <br></br>
                     <Link to="/view-journal">
-                        <button type="submit" class="btn btn-success" onClick={saveJournal}>Submit</button>
+                        <button type="submit" class="btn btn-success">Submit</button>
                     </Link>
                     <Link to="/home">
                         <button style={{ marginLeft: '25px' }} className="btn btn-danger">Cancel</button>

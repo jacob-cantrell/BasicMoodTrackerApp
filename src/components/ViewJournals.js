@@ -2,13 +2,6 @@ import React from 'react';
 import Header from './Header';
 
 const ViewJournals = () => {
-let journal1PIN;
-
-function checkPIN() {
-    if (journal1PIN === '1234') {
-
-    }
-}
 
     return (
         <div>
