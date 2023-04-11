@@ -60,13 +60,14 @@ label {
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
 }
 
 .styled-table thead tr {
-  background-color: #009879;
-  color: #ffffff;
+  background-color: #C7C7C7;
+  color: black;
   text-align: center;
+  font-family: "Optima";
 }
 
 .styled-table th, .styled-table td {

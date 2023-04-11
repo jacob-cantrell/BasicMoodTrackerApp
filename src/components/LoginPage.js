@@ -5,14 +5,11 @@ const LoginPage = () => {
     return (
     <div className="Auth-form-container" 
         style={{
-            backgroundImage:`url(https://www.f5.com/content/dam/f5-com/page-assets-en/home-en/company/diversity-inclusion/zoom-background-mental-health-awareness-1.png)`
+            backgroundImage:`url(https://media.istockphoto.com/id/1294477039/vector/metaphor-bipolar-disorder-mind-mental-double-face-split-personality-concept-mood-disorder-2.jpg?s=612x612&w=0&k=20&c=JtBxyFapXIA63hzZk_F5WNDF92J8fD2gIFNX3Ta4U3A=)`,
+            backgroundSize: "100% 100%"
         }}
     >
-      <form className="Auth-form" 
-        style={{
-            backgroundImage:`url(https://media.istockphoto.com/id/1156178759/vector/human-head-and-brain-creation-and-idea-concept.jpg?s=612x612&w=0&k=20&c=dDRkcnBadVH6oNVvULTIeqE-nEtwN2ADHZNI4LJ3hKQ=)`
-        }}
-      >
+      <form className="Auth-form">
         <div className="Auth-form-content">
           <h3 className="Auth-form-title">Sign In</h3>
           <div className="form-group mt-3">
@@ -20,7 +17,7 @@ const LoginPage = () => {
             <input
               type="email"
               className="form-control mt-1"
-              placeholder="example@wisc.edu"
+              placeholder="example@uwm.edu"
             />
           </div>
           <div className="form-group mt-3">
@@ -32,7 +29,7 @@ const LoginPage = () => {
             />
           </div>
           <div className="d-grid gap-2 mt-3">
-            <Link to="/home">
+            <Link to="/mood-tracker">
               <button type="submit" className="btn btn-primary">
                 Login
               </button>

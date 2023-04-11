@@ -11,9 +11,10 @@ const AddJournals = () => {
         <div>
             <Header/>
             <div>
-                <h2 style={{ textAlign: "center" }}
+                <br></br>
+                <h2 style={{ textAlign: "center", fontFamily: "Optima" }}
                     className="display-6" >
-                        Add Journals Page
+                        Add Journal Entry
                 </h2>
             </div>
             <div class="row">
@@ -30,8 +31,8 @@ const AddJournals = () => {
                     </div>
                     <br></br>
                     <div>
-                        <label for="inputSupervisor">Supervisor</label>
-                        <input type="text" name="supervisor" class="form-control" id="inputSupervisor" placeholder="Keiko Engel" required/>
+                        <label for="inputSupervisor">Who can view?</label>
+                        <input type="text" name="supervisor" class="form-control" id="inputSupervisor" placeholder="Therapist" required/>
                     </div>
                     <br></br>
                     <div>

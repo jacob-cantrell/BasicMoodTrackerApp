@@ -6,16 +6,17 @@ const Contact = () => {
         <div>
             <Header />
             <div>
-                <h2 style={{ textAlign: "center" }}
+                <br></br>
+                <h2 style={{ textAlign: "center", fontFamily: "Optima" }}
                     className="display-6" >
-                        Contact Page
+                        Resources
                 </h2>
             </div>
             <br></br>
             <div style={{textAlign: "center"}}>
-                <label style={{textAlign: "center"}}>About this website:</label>
+                <label style={{textAlign: "center"}}>If you need help, please reach out!</label>
                 <br></br>
-                <p>Sample text.</p>
+                <p>If you need emergent help, feel free to contact these resources. They are available 24/7 within Milwaukee County.</p>
             </div>
             <br></br>
             <div>
@@ -23,13 +24,34 @@ const Contact = () => {
                     <thead>
                         <tr>
                             <th>Resource Name</th>
-                            <th>Website</th>
-                            <th>Email</th>
                             <th>Phone Number</th>
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <th>Milwaukee Country Crisis</th>
+                            <th style={{paddingLeft:"70px"}}>(414) 257-7222</th>
+                        </tr>
+                        <tr>
+                            <th>Children's Mobile Crisis Team - To Help Children and Teens in Crisis</th>
+                            <th style={{paddingLeft:"70px"}}>(414) 257-7621</th>
+                        </tr>
+                        <tr>
+                            <th >National Suicide Prevention Lifeline</th>
+                            <th style={{paddingLeft:"70px"}}>988 / 1 (800) 273-8255</th>
+                        </tr>
+                        <tr>
+                            <th>National Domestic Violence Hotline</th>
+                            <th style={{paddingLeft:"70px"}}>1 (800) 799-7233</th>
+                        </tr>
+                        <tr>
+                            <th>National Drugs and Alcohol Hotline</th>
+                            <th style={{paddingLeft:"70px"}}>1 (800) 662-4357</th>
+                        </tr>
+                        <tr>
+                            <th>Bullying and Depression Hotline</th>
+                            <th style={{paddingLeft:"70px"}}>1 (800) 448-3000</th>
+                        </tr>
                     </tbody>
                 </table>
             </div>
