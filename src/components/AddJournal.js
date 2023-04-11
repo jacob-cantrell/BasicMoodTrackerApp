@@ -1,12 +1,8 @@
-import { React, useState } from 'react';
+import React from 'react';
 import Header from './Header';
 import { Link } from 'react-router-dom';
 
 const AddJournals = () => {
-    const [inPin, setPin] = useState("")
-    const [inDate, setDate] = useState(new Date())
-    const [textData, setTextData] = useState("")
-
     return (
         <div>
             <Header/>
@@ -22,12 +18,12 @@ const AddJournals = () => {
                 <form>
                     <div class="form-group">
                         <label for="inputDate">Date</label>
-                        <input type="date" name="date" class="form-control" id="inputDate" value={inDate} onChange={(e)=>setDate(e.target.value)} placeholder="Enter Date" required />
+                        <input type="date" name="date" class="form-control" id="inputDate" placeholder="Enter Date" required />
                     </div>
                     <br></br>
                     <div class="form-group">
                         <label for="inputPin">PIN</label>
-                        <input type="password" name="pin" class="form-control" id="inputPin" value={inPin} onChange={(e)=>setPin(e.target.value)} placeholder="xxxx" required />
+                        <input type="password" name="pin" class="form-control" id="inputPin" placeholder="xxxx" required />
                     </div>
                     <br></br>
                     <div>
@@ -37,7 +33,7 @@ const AddJournals = () => {
                     <br></br>
                     <div>
                         <label>Write your journal:
-                            <textarea name="inputJournal" rows={7} cols={100} value={textData} onChange={(e)=>setTextData(e.target.value)}/>
+                            <textarea name="inputJournal" rows={7} cols={100}/>
                         </label>
                     </div>
                     <br></br>

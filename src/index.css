@@ -13,6 +13,10 @@
   border: 0 !important;
 }
 
+.nav-link {
+  margin-left: 50px;
+}
+
 .App {
   background-image: "https://d1lzrgdbvkolkd.cloudfront.net/1512_B_752043a468.jpg";
 }
@@ -61,6 +65,7 @@ label {
   font-family: sans-serif;
   min-width: 400px;
   box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+  table-layout: fixed;
 }
 
 .styled-table thead tr {

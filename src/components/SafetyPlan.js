@@ -47,7 +47,7 @@ const SafetyPlan = () => {
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr style={{textAlign: "center"}}>
                                     <th>First Last</th>
                                     <th>(123) 456-7890</th>
                                 </tr>

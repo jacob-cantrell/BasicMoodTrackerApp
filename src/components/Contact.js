@@ -28,27 +28,27 @@ const Contact = () => {
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr style={{textAlign: "center"}}>
                             <th>Milwaukee Country Crisis</th>
                             <th style={{paddingLeft:"70px"}}>(414) 257-7222</th>
                         </tr>
-                        <tr>
+                        <tr style={{textAlign: "center"}}>
                             <th>Children's Mobile Crisis Team - To Help Children and Teens in Crisis</th>
                             <th style={{paddingLeft:"70px"}}>(414) 257-7621</th>
                         </tr>
-                        <tr>
+                        <tr style={{textAlign: "center"}}>
                             <th >National Suicide Prevention Lifeline</th>
                             <th style={{paddingLeft:"70px"}}>988 / 1 (800) 273-8255</th>
                         </tr>
-                        <tr>
+                        <tr style={{textAlign: "center"}}>
                             <th>National Domestic Violence Hotline</th>
                             <th style={{paddingLeft:"70px"}}>1 (800) 799-7233</th>
                         </tr>
-                        <tr>
+                        <tr style={{textAlign: "center"}}>
                             <th>National Drugs and Alcohol Hotline</th>
                             <th style={{paddingLeft:"70px"}}>1 (800) 662-4357</th>
                         </tr>
-                        <tr>
+                        <tr style={{textAlign: "center"}}>
                             <th>Bullying and Depression Hotline</th>
                             <th style={{paddingLeft:"70px"}}>1 (800) 448-3000</th>
                         </tr>
